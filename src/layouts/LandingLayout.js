@@ -4,13 +4,7 @@ import Header from "../components/Header";
 
 export default function LandingLayout() {
   return (
-    <Flex
-      direction="column"
-      align="center"
-      m="0 auto"
-      maxW="1200px"
-      minH="10000px"
-    >
+    <Flex direction="column" align="center" m="0 auto" maxW="1200px">
       <Header />
     </Flex>
   );

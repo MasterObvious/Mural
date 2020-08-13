@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Button, Flex } from "@chakra-ui/core";
 import "./styles/Header.css";
+import logo from "../logo.svg";
 
 export default function Header() {
   return (
@@ -12,7 +13,9 @@ export default function Header() {
       align="center"
       className="sticky"
     >
-      <p className="logo">EMS</p>
+      <Box h="4rem">
+        <img className="logo-svg" src={logo} alt="React Logo" />
+      </Box>
       <Box>
         <Button mr="3">Sign up</Button>
         <Button variantColor="green">Sign in</Button>

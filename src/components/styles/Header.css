@@ -3,6 +3,10 @@
   font-size: xx-large;
 }
 
+.logo-svg {
+  max-height: 100%;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
